@@ -1,0 +1,12 @@
+adminUser:
+  password: vault:keeperfast/adminUser:password
+  username: admin
+dashboardUrl: https://dashboard.jxaas.live
+enableDocker: false
+pipelineUser:
+  email: arcalos-admin@googlegroups.com
+  token: vault:keeperfast/pipelineUser:token
+  username: cloudbees-ci-cd[bot]
+prow:
+  hmacToken: vault:keeperfast/prow:hmacToken
+segmentWriteKey: vault:keeperfast:segmentWriteKey
